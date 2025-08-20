@@ -242,13 +242,7 @@ void Game::HandleMenuInput()
         selectedMenuItem = 2;  
         break;
         
-            /*CloseWindow();// Quit game - you can handle this in main.cpp
-        }
-        break;
-    case KEY_ESCAPE:
-        selectedMenuItem = 1; // Highlight quit
-        break;
-    }*/
+            /*CloseWindow();// Quit game - you can handle this in main.cpp*/
 
 }
 }
