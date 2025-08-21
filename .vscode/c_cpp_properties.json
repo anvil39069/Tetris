@@ -5,13 +5,74 @@
       "includePath": [
         "${workspaceFolder}/**"
       ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE",
+        "GRAPHICS_API_OPENGL_33",
+        "PLATFORM_DESKTOP"
+      ],
+>>>>>>> dc7c1460518fa6ec1618c3225b621ae3b509738d
+>>>>>>> ca87a3450522a8c11afa39833f87a24687038950
       "compilerPath": "C:/raylib/w64devkit/bin/gcc.exe",
       "cStandard": "${default}",
       "cppStandard": "${default}",
       "intelliSenseMode": "windows-gcc-x64",
+<<<<<<< HEAD
       "compilerArgs": [
         ""
       ]
+=======
+<<<<<<< HEAD
+      "compilerArgs": [
+        ""
+      ]
+=======
+      "configurationProvider": "ms-vscode.makefile-tools"
+    },
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE",
+        "GRAPHICS_API_OPENGL_33",
+        "PLATFORM_DESKTOP"
+      ],
+      "macFrameworkPath": [
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks"
+      ],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "c11",
+      "cppStandard": "c++14",
+      "intelliSenseMode": "clang-x64"
+    },
+    {
+      "name": "Linux",
+      "includePath": [
+        "/home/linuxbrew/.linuxbrew/include",
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE",
+        "GRAPHICS_API_OPENGL_33",
+        "PLATFORM_DESKTOP"
+      ],
+      "cStandard": "c11",
+      "cppStandard": "c++14",
+      "intelliSenseMode": "gcc-x64"
+>>>>>>> dc7c1460518fa6ec1618c3225b621ae3b509738d
+>>>>>>> ca87a3450522a8c11afa39833f87a24687038950
     }
   ],
   "version": 4
