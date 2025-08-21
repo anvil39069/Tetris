@@ -44,12 +44,7 @@ int main()
             DrawTextEx(font, "Score", {365, 15}, 38, 2, WHITE);
             DrawTextEx(font, "Next", {370, 175}, 38, 2, WHITE);
 
-            if(!game.gameOver)
-            {
-            // Show pause instruction
-            DrawTextEx(font,"Press P to Pause",{250,12},25, 20, GRAY);
-            }
-
+           
             char highScoreText[20];
             sprintf(highScoreText, "Best: %d", game.highScore);
             DrawText(highScoreText, 320, 120, 20, YELLOW);
