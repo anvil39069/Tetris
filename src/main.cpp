@@ -84,8 +84,7 @@ int main()
         }
         EndDrawing();
     }
-        EndDrawing();
-    }
+       
     
     CloseWindow();
     return 0;
