@@ -25,7 +25,7 @@ int main()
 
     Game game = Game();
     
-    while (!WindowShouldClose() && !game.shouldQuit)
+    while (!WindowShouldClose())
     {
         game.HandleInput();
         
@@ -43,9 +43,12 @@ int main()
         {
             DrawTextEx(font, "Score", {365, 15}, 38, 2, WHITE);
             DrawTextEx(font, "Next", {370, 175}, 38, 2, WHITE);
-            
+
+            if(!game.gameOver)
+            {
             // Show pause instruction
-            DrawText("Press P to Pause", 15, 580, 20, GRAY);
+            DrawTextEx(font,"Press P to Pause",{250,12},25, 20, GRAY);
+            }
 
             char highScoreText[20];
             sprintf(highScoreText, "Best: %d", game.highScore);
@@ -58,7 +61,7 @@ int main()
                 
                 if (game.score == game.highScore && game.score > 0)
                 {
-                    DrawText("NEW HIGH SCORE!", 500, 400, 25, GOLD);
+                    DrawText("NEW HIGH SCORE!",100, 400, 25, GOLD);
                 }
             }
             

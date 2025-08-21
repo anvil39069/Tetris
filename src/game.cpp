@@ -71,8 +71,8 @@ std::vector<Block> Game::GetAllBlocks()
 
 void Game::Draw()
 {
-    grid.Draw();  
-    currentBlock.Draw(11, 11);
+    /*grid.Draw();  
+    currentBlock.Draw(11, 11);*/
     switch (gameState)
     {
 
